@@ -3,7 +3,8 @@
 
 // Tento soubor se nespustí, pokud jsou spuštěny testy (díky __TEST__ definici)
 #ifndef __TEST__
-int main() {
+int main()
+{
     std::cout << "--- Testovani tridy Matrix (z main.cpp) ---" << std::endl;
 
     // Vytvoření matice A
@@ -67,7 +68,6 @@ int main() {
     std::cout << matA;
     std::cout << "\nKopie matice A (mela by zustat nezmenena):" << std::endl;
     std::cout << matA_copy;
-
 
     std::cout << "\n--- Testovani dokonceno ---" << std::endl;
 
